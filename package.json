@@ -1,29 +1,20 @@
 {
     "name": "grievance-system",
     "version": "1.0.0",
-    "description": "A Grievance System with integrated chat functionality using NodeJS, ExpressJS, and MongoDB",
-    "main": "server.js",
+    "description": "Backend for Grievance System with chat functionality",
+    "main": "app.js",
     "scripts": {
-        "start": "node server.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node app.js"
     },
-    "keywords": [
-        "grievance",
-        "system",
-        "chat",
-        "nodejs",
-        "expressjs",
-        "mongodb"
-    ],
-    "author": "Sayan Das",
-    "license": "MIT",
     "dependencies": {
         "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
         "dotenv": "^10.0.0",
+        "ejs": "^3.1.9",
         "express": "^4.17.1",
-        "joi": "^17.12.1",
         "jsonwebtoken": "^8.5.1",
-        "mongoose": "^6.1.7",
-        "socket.io": "^4.3.2"
+        "mongoose": "^6.0.11",
+        "socket.io": "^4.2.0"
     }
 }
